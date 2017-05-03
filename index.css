@@ -1,0 +1,94 @@
+body {
+  /*Styles that apply to all devices */
+  background-position: top;
+  background-color: #FFE2EA;
+  background-repeat: no-repeat;
+  margin: 0%;
+
+ }
+
+ p {
+   text-align: center;
+   font-size: 18px;
+ }
+ @media (min-device-width: 400px){
+ #ul {
+     display: inline-block;
+     background-image: url("http://www.maccosmetics.com/media/export/cms/collections/extradimension_201703/extradimension201703_whats_new_clean_384x384.jpg");
+     left: 610px;
+     margin: 10px;
+     padding: 70px;
+     position: absolute;
+     bottom: 5px;
+     max-width: 300px;
+     height: 300px;
+     border: 1px solid green;
+     color: purple;
+    }
+ }
+
+ @media (min-device-width: 400px) {
+   .topnav {
+   display: block;
+   background-image: url("http://vignette2.wikia.nocookie.net/makeup/images/6/6e/Mac_cometics.jpeg/revision/latest?cb=20110929232255");
+   }
+
+  .topnav {
+    background-color: violet;
+    overflow: hidden;
+    left: 50px;
+    text-align: center;
+    padding: 75px 100px;
+    border-radius: 15px;
+  }
+
+  .topnav a {
+    color: white;
+    text-align: center;
+    padding: 110px 125px;
+    font-size: 30px;
+   }
+
+  .topnav a:hover {
+    background-color: pink;
+    color: gray;
+   }
+}
+
+@media (min-device-width: 650px){
+  .info {
+  display: block;
+  background-image: url("https://i.ytimg.com/vi/yMK_dNziBZM/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+.info {
+    /*float: left;*/
+   right: 60px;
+   margin: 10px;
+   padding: 70px;
+   position: absolute;
+   bottom: 5px;
+   max-width: 300px;
+   height: 300px;
+   border: 1px solid red;
+  }
+}
+
+@media (min-device-width: 650px) {
+    .top {
+  display: block;
+  background-image: url("http://akns-images.eonline.com/eol_images/Entire_Site/2015927/rs_634x862-151027115142-Ariana-Grande-Mac-AMBIENT_NOBLURB_HIRES.jpg");
+  background-size: contain;
+  left: 60px;
+  position: absolute;
+  margin: 10px;
+  padding: 70px;
+  position: absolute;
+  bottom: 5px;
+  max-width: 300px;
+  height: 300px;
+  border: 1px solid red;
+   }
+}
